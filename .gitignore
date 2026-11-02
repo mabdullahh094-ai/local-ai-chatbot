@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local runtime data
+chat_history/
+chat_history.json
+knowledge/*
+!knowledge/.gitkeep
+
+# Local binaries and test artifacts
+vendor/
+*.wav
+
+# Local tooling and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
